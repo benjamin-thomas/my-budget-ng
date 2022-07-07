@@ -1,0 +1,3 @@
+#!/bin/bash
+
+AWS_PROFILE=ScalewayPerso aws s3 sync --delete ./dist/my-budget-ng/ s3://my-budget-ng/
